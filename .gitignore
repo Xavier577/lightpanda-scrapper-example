@@ -1,0 +1,34 @@
+.DS_Store
+*.DS_Store*
+node_modules
+.env*
+.env.*.local
+*.log
+coverage
+.nyc_output
+.mp4
+cypress/fixtures/*
+cypress/screenshots/*
+cypress/videos/*
+!cypress/videos/.gitkeep
+!cypress/screenshots/.gitkeep
+*temp
+*.swp
+*.swo
+*secret*
+uploads
+dist
+serve/.env*
+serve/data
+serve/data/*
+.zed
+.claude
+.idea
+.idea/*
+Dockerfile.dev
+
+# Sentry Config File
+.sentryclirc
+
+# Jest cache
+.jest-cache
