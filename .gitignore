@@ -1,7 +1,6 @@
 .DS_Store
 *.DS_Store*
 node_modules
-.env*
 .env.*.local
 *.log
 coverage
@@ -32,3 +31,4 @@ Dockerfile.dev
 
 # Jest cache
 .jest-cache
+config.bat
