@@ -10,7 +10,7 @@ export default async function runner(config) {
 
   const proc = await lightpanda.serve({ host, port });
 
-  const browserWSEndpoint = `ws://${config.host}:${config.port}`;
+  const browserWSEndpoint = `ws://${host}:${port}`;
   const browser = await puppeteer.connect({ browserWSEndpoint });
 
   for (const script of config.scripts) {
