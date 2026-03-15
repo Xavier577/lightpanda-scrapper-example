@@ -1,6 +1,6 @@
 # lightpanda-scrapper-example
 
-Web scraping examples using [Lightpanda](https://github.com/nichochar/lightpanda-node) headless browser and Puppeteer.
+Web scraping examples using [Lightpanda](https://github.com/lightpanda-io/browser) headless browser and Puppeteer.
 
 ## Prerequisites
 
