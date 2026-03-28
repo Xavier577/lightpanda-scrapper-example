@@ -1,9 +1,6 @@
 "use strict";
-
 import runner from "./runner.js";
-import { createRequire } from 'module';
 
-const require = createRequire(import.meta.url);
 
 process.loadEnvFile();
 
