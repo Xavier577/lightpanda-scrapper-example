@@ -31,4 +31,3 @@ Dockerfile.dev
 
 # Jest cache
 .jest-cache
-config.bat
